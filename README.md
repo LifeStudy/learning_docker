@@ -18,8 +18,8 @@ Learning Docker
 
 ## Step
 
-* Create Dockerfile
-* docker build -t="react-native" . - same directory of the dockerfile.
-* docker commit $(docker ps -l -q) react-native:js
-* docker tag react-native:js arjaraujo/react-native-android
-* docker push arjaraujo/react-native-android
+* Create Dockerfile - get my dockerfile example
+* ./build_docker.sh . - same directory of the dockerfile.
+* docker commit $(docker ps -l -q) react-native:js - recommend put " user/repository:tag " hub docker. For Ex: arjaraujo/react-native:js
+* docker tag arjaraujo/react-native:js arjaraujo/react-native:js
+* docker push arjaraujo/react-native:js
