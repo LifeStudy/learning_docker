@@ -3,7 +3,8 @@ Learning Docker
 
 
 ## Install
-  
+  * sudo apt-get install git build-essential
+
   * sudo apt-get -y install curl apt-transport-https ca-certificates software-properties-common
 
   * curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
