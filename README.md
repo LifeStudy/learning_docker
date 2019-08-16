@@ -14,6 +14,10 @@ Learning Docker
   * sudo apt-get update
 
   * sudo apt-get install docker-compose docker docker-ce
+  
+  $ sudo groupadd docker
+
+  $ sudo usermod -aG docker $USER
 
 
 
