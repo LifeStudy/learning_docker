@@ -16,4 +16,4 @@ docker run \
         --device /dev/ttyUSB6 \
         --device /dev/ttyUSB7 \
         -v /dev/bus/usb:/dev/bus/usb \
-        react-native:js bash
+        arjaraujo/react-native:js bash
